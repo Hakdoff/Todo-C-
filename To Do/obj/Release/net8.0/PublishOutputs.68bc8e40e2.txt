@@ -1,0 +1,22 @@
+C:\Users\erika\source\repos\To Do\publish\To Do.exe
+C:\Users\erika\source\repos\To Do\publish\appsettings.Development.json
+C:\Users\erika\source\repos\To Do\publish\appsettings.json
+C:\Users\erika\source\repos\To Do\publish\To Do.dll
+C:\Users\erika\source\repos\To Do\publish\To Do.runtimeconfig.json
+C:\Users\erika\source\repos\To Do\publish\To Do.pdb
+C:\Users\erika\source\repos\To Do\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.Extensions.Logging.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.Extensions.Options.dll
+C:\Users\erika\source\repos\To Do\publish\Microsoft.OpenApi.dll
+C:\Users\erika\source\repos\To Do\publish\MySqlConnector.dll
+C:\Users\erika\source\repos\To Do\publish\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\erika\source\repos\To Do\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\erika\source\repos\To Do\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\erika\source\repos\To Do\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\erika\source\repos\To Do\publish\To Do.deps.json

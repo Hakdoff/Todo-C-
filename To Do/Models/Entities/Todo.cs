@@ -6,10 +6,22 @@
 		public string Title { get; set; } = "";
 		public string Description { get; set; } = "";
 
-		public DateTime Deadline { get; set; }
+		private DateTime _deadline;
+		public DateTime Deadline
+		{
+			get => _deadline;
+			set => _deadline = DateTime.SpecifyKind(value, DateTimeKind.Utc);
+		}
+
 
 		public bool IsCompleted { get; set; }
 
-		public DateTime CreatedAt { get; set; }
+		private DateTime _createdAt;
+		public DateTime CreatedAt
+		{
+			get => _createdAt;
+			set => _createdAt = DateTime.SpecifyKind(value, DateTimeKind.Utc);
+		}
+
 	}
 }
