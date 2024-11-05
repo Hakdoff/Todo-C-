@@ -45,6 +45,7 @@ namespace To_Do.Controllers
 				Title = addMonthlyDto.Title,
 				Description = addMonthlyDto.Description,
 				IsCompleted = addMonthlyDto.IsCompleted,
+				CreatedAt = addMonthlyDto.CreatedAt
 			};
 
 			_dbContext.Monthly.Add(monthlyEntity);
@@ -66,6 +67,7 @@ namespace To_Do.Controllers
 			monthly.Title = updateMonthlyDto.Title;
 			monthly.Description = updateMonthlyDto.Description;
 			monthly.IsCompleted = updateMonthlyDto.IsCompleted;
+			monthly.CreatedAt = updateMonthlyDto.CreatedAt;
 
 			_dbContext.SaveChanges();
 			return Ok(monthly);

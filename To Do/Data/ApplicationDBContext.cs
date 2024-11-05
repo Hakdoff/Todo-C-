@@ -16,5 +16,7 @@ namespace To_Do.Data
 
 		public DbSet<Monthly> Monthly { get; set; }
 
+		public DbSet<Schedule> Schedules { get; set; }
+
 	}
 }

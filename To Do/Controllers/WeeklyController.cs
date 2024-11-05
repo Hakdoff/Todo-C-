@@ -45,6 +45,7 @@ namespace To_Do.Controllers
 				Title = addWeeklyDto.Title,
 				Description = addWeeklyDto.Description,
 				IsCompleted = addWeeklyDto.IsCompleted,
+				CreatedAt = addWeeklyDto.CreatedAt
 			};
 
 			_dbContext.Weekly.Add(weeklyEntity);
@@ -66,6 +67,7 @@ namespace To_Do.Controllers
 			weekly.Title = updateWeeklyDto.Title;
 			weekly.Description = updateWeeklyDto.Description;
 			weekly.IsCompleted = updateWeeklyDto.IsCompleted;
+			weekly.CreatedAt = updateWeeklyDto.CreatedAt;
 
 			_dbContext.SaveChanges();
 			return Ok(weekly);

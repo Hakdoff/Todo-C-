@@ -43,6 +43,7 @@ namespace To_Do.Controllers
 			var noteEntity = new Note()
 			{
 				Description = addNoteDto.Description,
+				CreatedAt = addNoteDto.CreatedAt
 			};
 
 			_dbContext.Notes.Add(noteEntity);
@@ -62,6 +63,7 @@ namespace To_Do.Controllers
 			}
 
 			note.Description = updateNoteDto.Description;
+			note.CreatedAt = updateNoteDto.CreatedAt;
 
 			_dbContext.SaveChanges();
 			return Ok(note);
